@@ -36,3 +36,5 @@ helm:
         
     mysql:
       mysqlRootPassword: "Snix123@"
+      mysqlUser: "finger"
+      mysqlPassword: "finger"
