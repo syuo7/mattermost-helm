@@ -29,13 +29,13 @@ helm:
 
   # Custom values that will be passed as values.yaml to the installation
   values:
-    ingress:
-      enabled: true
-      hosts: 
-        - mattermost.hubot.systems
-        
     mysql:
       enabled: true
       mysqlRootPassword: "Snix123@"
       mysqlUser: "finger"
       mysqlPassword: "Snix123@"
+    ingress:
+      enabled: true
+      hosts: 
+        - mattermost.hubot.systems
+        
